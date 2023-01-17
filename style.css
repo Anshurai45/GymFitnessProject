@@ -1,0 +1,134 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
+    margin: 0px;
+    padding: 0px;
+    background: url("weightlift.jpg");
+    background-repeat: no-repeat;
+    background-position:fixed;
+    color: whitesmoke;
+
+}
+.header{
+    position: fixed;
+ width: 100%;
+}
+.left {
+
+
+    display: inline-block;
+    position: absolute;
+    left: 9px;
+    top: 3px;
+}
+
+
+
+.mid {
+    display: block;
+    width: 44%;
+    margin: 22px auto;
+    margin-top: 0px;
+   
+    margin: 4px auto;
+    word-spacing: 5px;
+
+}
+
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 19px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: solid;
+    color: #b597b3
+}
+
+.left img {
+    width: 126px;
+    margin-top: -14px;
+}
+
+.mid li a {
+    margin-left: 4px;
+}
+
+.left div {
+    text-align: center;
+    margin-top: -29px;
+    margin-left: 10px;
+}
+
+.btn {
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Pacifico', cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 3px 15px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.contanier {
+    padding: 137px 61px;
+width: 421px;
+height: 345px;
+border-radius: 17px;
+}
+
+
+.form-title {
+    text-align: center;
+}
+
+.form-group input {
+    border: 2px solid rgb(221, 146, 146);
+    width: 317px;
+    display: block;
+    margin: 18px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 14px;
+}
+
+.contanier button {
+    display: block;
+    width: 23%;
+    margin: 18px;
+    padding: 4px;
+    margin-right: 102px;
+   
+    border-radius:-150px
+}
+.left div{
+    font-style: italic;
+    font-weight: bold;
+}
